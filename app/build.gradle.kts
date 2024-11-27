@@ -43,6 +43,9 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
 
+    // GSON
+    implementation(libs.gson)
+
     // TEST
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
