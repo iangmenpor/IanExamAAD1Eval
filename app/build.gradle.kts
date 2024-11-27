@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.ksp)
 }
 
 android {
@@ -45,6 +46,11 @@ dependencies {
 
     // GSON
     implementation(libs.gson)
+
+    // ROOM
+    implementation(libs.room.runtime)
+    implementation(libs.room.ktx)
+    ksp(libs.room.ksp)
 
     // TEST
     testImplementation(libs.junit)
