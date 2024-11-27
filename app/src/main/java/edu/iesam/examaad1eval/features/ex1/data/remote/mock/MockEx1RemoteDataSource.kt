@@ -1,4 +1,8 @@
-package edu.iesam.examaad1eval.features.ex1
+package edu.iesam.examaad1eval.features.ex1.data.remote.mock
+
+import edu.iesam.examaad1eval.features.ex1.model.Item
+import edu.iesam.examaad1eval.features.ex1.model.Services
+import edu.iesam.examaad1eval.features.ex1.model.User
 
 class MockEx1RemoteDataSource {
 
